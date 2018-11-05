@@ -133,7 +133,8 @@ paascloud:
     callback:
       url: http://dev-api.paascloud.net/omc/pay/alipayCallback
     qrCode:
-      pcPath: /data/file/qrCode/alipay
+      #pcPath: /data/file/qrCode/alipay
+      pcPath: /Users/caliven/paascloud/file/qrCode/alipay
       qiniuPath: alipay/QRCode/
   zk:
     zkAddressList: paascloud-provider-zk:2181
