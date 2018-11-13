@@ -19,7 +19,7 @@ spring:
     password: guest
   redis:
     host: paascloud-db-redis
-    password: 123456
+    password: root
     port: 6379
     pool:
       min-idle: 0
